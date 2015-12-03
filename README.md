@@ -30,7 +30,7 @@ Starting with, "Make the use of hypermedia easier."
     + Define a parsing strategy which will convert any response into a 
     consistent respresentation appropriate to the environment
   4. How will you "define a parsing strategy" and how will you "define a
-  'consistent representation'"?
+    'consistent representation'"?
     + Define a plugable parser to allow for community-built common format parsers
     + Define a single and consistent translation target for parser implementers
     to convert standard formats to
