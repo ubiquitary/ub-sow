@@ -1,15 +1,7 @@
 Ubiquitary / Rosetta Project
 ============================
 
-Hypermedia is available to everyone but is shrowded in obscurity. People are
-often intimidated by the word hypermedia, by the choices it present, and by the
-implementation details necessary. This is so much the case that the simpler
-solution of ignoring hypermedia is more often chosen; because learning
-something new is hard. As hard as it might be to learn something new, more
-daunting is the choice of hypermedia flavor; the choice of format is a barrier
-to entry because choosing is expensive.
-
-  > "Optimize for the better solution and it will be the obvious choice."
+  > "Optimize for the better solution and it will become the obvious choice."
 
 The goal of this project is to "Make the use of hypermedia easier and more
 attractive than not using hypermedia." The [benefits of hypermedia] in API
@@ -20,28 +12,27 @@ transmission.
 
 Starting with, "Make the use of hypermedia easier."
 
-  1. How will you "make the use of hypermedia esier"?
+  1. How will you do that?
     + Make the consumption of hypermedia easier
-      - One of the biggest oponents to wider adoption of hypermedia is ease of use
-      - Foster more demand for hypermedia
-  2. How will you "make the consumption of hypermedia easier"?
+  2. How will you do that?
     + Define a way to unify response parsing
-  3. How will you "define a way to unify response parsing"?
-    + Define a parsing strategy which will convert any response into a 
-    consistent respresentation appropriate to the environment
-  4. How will you "define a parsing strategy" and how will you "define a
-    'consistent representation'"?
-    + Define a plugable parser to allow for community-built common format parsers
+  3. How will you do that?
+    + Define a parsing strategy
+    + Define a consistent representation format for the parser to output
+  4. How will you do those?
+    + Define a plugable parser to allow for community-built common format
+      parsers allowing custom parsers to be plugged in where necessary
     + Define a single and consistent translation target for parser implementers
-    to convert standard formats to
+      to convert standard formats to
 
 ## Expected Outcomes
 
   1. Make hypermedia consumption easier
-  2. Ease the burden of format decision
-    - Hopefullly encouraging more data-providers to choose hypermedia
-    - Increasing the number and quality of hypermedia providers
+    + Foster more demand for hypermedia
+  2. Ease the burden/risk of format decision
+    + Hopefullly encouraging more data-providers to choose hypermedia
+    + Increasing the number and quality of hypermedia providers
   3. Ease the use of many different hypermedia APIs in a single application a
-  non-issue; as well as APIs changing hypermedia formats
+    non-issue; as well as APIs changing hypermedia formats
 
 [benefits of hypermedia]: benefits-of-hypermedia.md

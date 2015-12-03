@@ -1,21 +1,39 @@
 The Benefits of Hypermedia
 ==========================
 
+Hypermedia can benefit: any API, the developers of an API, the developers of
+the consumers of an API, the business providing and API, and the business
+consuming an API; if only the barriers to adoption/entry can be overcome. The
+barriers being:
+
+  1. Choosing, and committing to, a format that suits the API domain
+  2. Matching the choice of format with the expectations of clients
+  3. Clients embracing the spirit of hypermedia-driven applications
+
+Developers - on both sides: producers and consumers - are intimidated by
+hypermedia as a concept and the choices it presents; so much so that often a
+decision to ignore it alltogether is made. Choosing to provide and consume
+hypermedia may be expensive but the benefits are many and wide-reaching. These
+benefits include:
+
   - Explorable API ([soabits])
-  - Inline Documentation ([soatbits])
-  - Simple Client Logic ([soatbits])
-  - Server-owned URLs ([soatbits])
-  - Content Offloading ([soatbits])
-  - Versioning With Links ([soatbits])
-  - Multiple Implementations ([soatbits])
+  - Inline Documentation ([soabits])
+  - Simple Client Logic ([soabits])
+  - Server-owned URLs ([soabits])
+  - Content Offloading ([soabits])
+  - Versioning With Links ([soabits])
+  - Multiple Implementations ([soabits])
   - Isolation Of Changes
   - Explicit Workflow
 
 ### Isolation of Changes
 
-Isolation of changes refers to keeping changes to as few "layers" as possible;
-ideally one. Where changes need to be made, and subsequently where errors need
-to be tracked down, is of great importance to teams managing applications.
+Isolation of changes refers to a concept also known as "decoupling". This
+isolation helps keep changes to as few layers, of an application, as
+possible; ideally one. Isolation also reduces the need for coordination
+between layers about changes happening. Where changes need to be made, and
+subsequently where errors need to be tracked down, is of great importance to
+teams managing applications.
 
 **An overly simplified example:**
 
